@@ -1,0 +1,99 @@
+nav{
+    display: flex;
+    padding: 0px 200px 0px 120px;
+    gap: 40px;
+    height: 100px;
+    align-items: center;
+}
+
+.navItem{
+    color: #403930;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.badge{
+    padding: 12px 24px;
+    gap: 10px;
+    border-radius: 10px;
+    background: #E6EEFF;
+    width: fit-content;
+    color: #000;
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+
+    margin-bottom: 40px;
+}
+
+header{
+    padding: 100px 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+header div h1{
+    color: #333;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+    letter-spacing: -1.28px;
+
+    margin-bottom: 40px;
+}
+
+header div h1 em{
+    background: linear-gradient(
+        99deg, 
+        #001F8F 3.58%, 
+        rgba(36, 255, 203, 0.50) 90.34%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.headerLinkContainer{
+    display: flex;
+    gap: 16px;
+}
+
+.headerLink{
+    display: flex;
+    text-decoration: none;
+    width: 170px;
+    padding: 24px 40px;
+    border-radius: 16px;
+    background-color: #000;
+    justify-content: center;
+
+    color: #E6EEFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.headerLinkReverse{
+    border: 4px solid #403930;
+    background-color: #fff;
+    color: #403930;
+}
+
+.headerImg{
+    width: 350px;
+    height: 350px;
+    flex-shrink: 0;
+    border-radius: 500px;
+    border: 10px solid #BCF2F9;
+    background-image: url(./img/burby.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
