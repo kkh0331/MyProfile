@@ -185,6 +185,81 @@ header div h1 span{
     margin-top: 40px;
 }
 
+.projectContainer{
+    display: flex;
+    padding: 80px 120px 120px 120px;
+    flex-direction: column;
+    justify-content: center;
+    background: rgba(244, 244, 244, 0.50);
+}
+
+.projectTitle{
+    color: #403930;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+    letter-spacing: -0.8px;
+}
+
+.projectItem{
+    display: flex;
+    padding-left: 40px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 32px;
+    background-color: #E6EEFF;
+    border-radius: 20px;
+}
+
+.projectDesc{
+    display: flex;
+    max-width: 437px;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+.projectItemTitle{
+    color: #403930;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 36px */
+}
+
+.projectLink{
+    color: #00446A;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 30px */
+    text-decoration-line: underline;
+}
+
+.proejctItemDetail{
+    color: #403930;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 24px */
+    margin-bottom: 24px;
+}
+
+.projectThumbnail{
+    height: 300px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.projectImg{
+    width: 160px;
+    height: 280px;
+    flex-shrink: 0;
+}
 
 .fixedContactButton{
     width: 165px;
