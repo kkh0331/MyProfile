@@ -103,7 +103,7 @@ header div h1 span{
     flex-shrink: 0;
     border-radius: 500px;
     border: 10px solid #BCF2F9;
-    background-image: url(./img/burby.png);
+    background-image: url(./assets/img/burby.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -174,15 +174,15 @@ header div h1 span{
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 
 .techStacks{
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 80px;
+    row-gap: 40px;
     align-items: center;
-    margin-top: 40px;
 }
 
 .projectContainer{
