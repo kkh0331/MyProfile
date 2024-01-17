@@ -15,8 +15,7 @@ nav{
 }
 
 header{
-    padding: 60px 24px;
-    justify-content: flex-start;
+    padding: 40px 24px;
 }
 
 header div h1{
@@ -44,29 +43,155 @@ header div h1{
 }
 
 .introContainer{
-    display: none;
+    padding: 60px 24px;
+}
+
+.introTitle{
+    color: #333;
+    font-size: 18px;
+    letter-spacing: -0.36px;
+}
+
+.flyingPerson{
+    width: 40px;
+    height: 40px;
+    bottom: 24px;
+    left: 70px;
+}
+
+.introText{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.28px;
 }
 
 .techStackContainer{
-    display: none;
+    padding: 60px 24px;
+    align-items: flex-start;
+}
+
+.techStackTitle{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px; /* 108.333% */
+    letter-spacing: -0.48px;
+}
+
+.techStackDesc{
+    font-size: 14px;
+    text-align: left;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+    margin-bottom: 32px;
+}
+
+.techStacks{
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 8px;
+    row-gap: 24px;
+}
+
+.techStacks img{
+    max-width: 80px;
+    max-height: 80px;
 }
 
 .projectContainer{
-    display: none;
+    padding: 60px 24px;
+}
+
+.projectTitle{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px; /* 108.333% */
+    letter-spacing: -0.48px;
+}
+
+.projectItem{
+    flex-direction: column-reverse;
+    padding: 24px 16px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.projectDesc{
+    box-sizing: border-box;
+    width: 100%;
+    margin-right: 0px;
+}
+
+.projectThumbnail{
+    padding: 0px;
+}
+
+.projectImg{
+    max-width: max-content;
+    max-height: 200px;
+    flex-shrink: 0;
 }
 
 .recommendContainer{
-    display: none;
+    padding: 60px 24px;
+    align-self: stretch;
+}
+
+.recommendTitle{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 108.333% */
+    letter-spacing: -0.48px;
+    margin-bottom: 40px;
+}
+
+.recommendInnerSlider{
+    flex-direction: column;
+    gap: 20px;
+}
+
+.recommendSlide{
+    box-sizing: border-box;
+    width:fit-content;
+    height:auto;
+    display: flex;
+    padding: 24px 16px;
+    gap: 16px;
+    align-items: flex-end;
+}
+
+.recommendText{
+    font-family: Pretendard;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 150%; /* 21px */
+}
+
+.recommendPerson{
+    color: #1866AF;
+    text-align: right;
+    font-family: Pretendard;
+    font-size: 12px;
+    font-weight: 400;
 }
 
 .goalContainer{
-    display: none;
+    padding: 60px 24px;
 }
 
-footer{
+.goalContainer h1{
+    font-size: 24px;
+    letter-spacing: -0.48px;
+}
+
+.goalContainer h1 span{
     display: none;
 }
 
 .fixedContactButton{
     display: none;
+}
+
+footer{
+    height: 140px;
 }

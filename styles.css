@@ -158,7 +158,6 @@ header div h1 span{
 
 .techStackTitle{
     color: #000;
-    text-align: center;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -247,11 +246,12 @@ header div h1 span{
 }
 
 .projectThumbnail{
-    height: 300px;
     flex-shrink: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-right: 30px;
 }
 
