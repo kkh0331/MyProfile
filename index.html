@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-X1V1LDHRFK"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-X1V1LDHRFK');
+    </script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
@@ -22,8 +32,8 @@
             000입니다.<br/>
             </h1>
             <div class="headerLinkContainer">
-                <a class="headerLink" href="#" target="_blank">Github Link</a>
-                <a class="headerLink headerLinkReverse" href="#" target="_blank">Resume Link</a>
+                <a class="headerLink" onclick="onClickButton('github')" href="#" target="_blank">Github Link</a>
+                <a class="headerLink headerLinkReverse" onclick="onClickButton('resume')" href="#" target="_blank">Resume Link</a>
             </div>
         </div>
         <div class="headerImg"></div>
@@ -285,5 +295,25 @@
         <a href="mailto:abcd1234@gmail.com">이메일</a>
     </div>
 
+    <script>
+        function onClickButton(type){
+            if(type === 'github'){
+                gtag("event", "깃허브_버튼_클릭", {
+                    // gtag("이벤트명", "액션명", {액션에 대한 상세 내용})
+                    'event_category': '깃허브_버튼_클릭',
+                    'event_label': '깃허브_버튼_클릭'
+                })
+            }
+            else if(type === 'resume'){
+                gtag("event", "깃허브_버튼_클릭", {
+                    'event_category': '깃허브_버튼_클릭',
+                    'event_label': '깃허브_버튼_클릭'
+                })
+            }
+        }
+
+    </script>
+
 </body>
+
 </html>
