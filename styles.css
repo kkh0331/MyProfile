@@ -112,9 +112,7 @@ header div h1 span{
     display: flex;
     padding: 100px 120px;
     flex-direction: column;
-    justify-content: center;
     gap: 10px;
-
     background: linear-gradient(96deg, rgba(189, 210, 255, 0.40) 1.72%, rgba(116, 224, 215, 0.40) 158.93%);
 }
 
@@ -152,7 +150,6 @@ header div h1 span{
     display: flex;
     padding: 100px 120px;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
@@ -179,9 +176,14 @@ header div h1 span{
 .techStacks{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    column-gap: 80px;
+    column-gap: 60px;
     row-gap: 40px;
     align-items: center;
+}
+
+.techStacks img{
+    max-width: 100px;
+    max-height: 100px;
 }
 
 .projectContainer{
@@ -255,15 +257,14 @@ header div h1 span{
     padding-right: 30px;
 }
 
-.projectImg{
+.projectThumbnail img{
     width: 160px;
     height: 280px;
-    flex-shrink: 0;
 }
 
 .recommendContainer{
     display: flex;
-    padding: 80px 0px 120px 0px;
+    padding: 80px 120px 120px 120px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -286,7 +287,6 @@ header div h1 span{
 
 .recommendInnerSlider{
     display: flex;
-    flex-direction: row;
     width: fit-content;
 }
 

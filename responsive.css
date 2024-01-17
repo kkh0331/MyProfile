@@ -92,8 +92,7 @@ header div h1{
 }
 
 .techStacks img{
-    max-width: 80px;
-    max-height: 80px;
+    max-width: 75px;
 }
 
 .projectContainer{
@@ -110,8 +109,7 @@ header div h1{
 .projectItem{
     flex-direction: column-reverse;
     padding: 24px 16px;
-    justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     gap: 16px;
 }
 
@@ -125,10 +123,9 @@ header div h1{
     padding: 0px;
 }
 
-.projectImg{
+.projectThumbnail img{
     max-width: max-content;
     max-height: 200px;
-    flex-shrink: 0;
 }
 
 .recommendContainer{
@@ -151,10 +148,8 @@ header div h1{
 }
 
 .recommendSlide{
-    box-sizing: border-box;
     width:fit-content;
     height:auto;
-    display: flex;
     padding: 24px 16px;
     gap: 16px;
     align-items: flex-end;
