@@ -25,4 +25,4 @@ jobs:
           aws s3 sync web s3://pda-portfolio/
 
       - name: Invalidate cloudfront
-        run: aws cloudfront create-invalidation --distribution-id E28JDBJYUE4F8J --paths /* 
+        run: aws cloudfront create-invalidation --distribution-id E28JDBJYUE4F8J --paths "/*"
