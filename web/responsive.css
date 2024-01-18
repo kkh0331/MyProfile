@@ -87,12 +87,12 @@ header div h1{
 
 .techStacks{
     grid-template-columns: repeat(4, 1fr);
-    column-gap: 8px;
-    row-gap: 24px;
+    column-gap: 5%;
+    row-gap: 5%;
 }
 
 .techStacks img{
-    max-width: 75px;
+    max-width: 100%;
 }
 
 .projectContainer{
