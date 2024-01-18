@@ -103,7 +103,7 @@ header div h1 span{
     flex-shrink: 0;
     border-radius: 500px;
     border: 10px solid #BCF2F9;
-    background-image: url(../assets/img/burby.png);
+    background-image: url(assets/img/burby.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
