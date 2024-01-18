@@ -124,7 +124,7 @@ header div h1{
 }
 
 .projectThumbnail img{
-    max-width: max-content;
+    max-width: 105px;
     max-height: 200px;
 }
 
