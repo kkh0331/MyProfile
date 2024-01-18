@@ -205,10 +205,10 @@ header div h1 span{
 
 .projectItem{
     display: flex;
-    padding-left: 40px;
+    padding-left: 5%;
     align-items: center;
-    justify-content: space-between;
-    gap: 40px;
+    width: 100%;
+    gap: 5%;
     margin-top: 32px;
     background-color: #E6EEFF;
     border-radius: 20px;
@@ -217,8 +217,8 @@ header div h1 span{
 .projectDesc{
     display: flex;
     max-width: 437px;
+    width: 30%;
     flex-direction: column;
-    margin-right: 40px;
 }
 
 .projectItemTitle{
@@ -248,18 +248,19 @@ header div h1 span{
 }
 
 .projectThumbnail{
-    flex-shrink: 0;
+    /* flex-shrink: 0; */
+    width: 60%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 30px;
+    /* padding-right: 30px; */
 }
 
 .projectThumbnail img{
-    width: 160px;
-    height: 280px;
+    width: 33%;
+    /* height: 280px; */
 }
 
 .recommendContainer{

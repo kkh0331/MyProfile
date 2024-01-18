@@ -111,6 +111,8 @@ header div h1{
     padding: 24px 16px;
     align-items: center;
     gap: 16px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .projectDesc{
@@ -121,11 +123,8 @@ header div h1{
 
 .projectThumbnail{
     padding: 0px;
-}
-
-.projectThumbnail img{
-    max-width: 101px;
-    max-height: 200px;
+    width: 100%;
+    justify-content: center;
 }
 
 .recommendContainer{
